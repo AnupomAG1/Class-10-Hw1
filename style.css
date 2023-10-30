@@ -40,17 +40,17 @@
 }
 
 /* COMMON CSS CORNER */ 
+ #THUMBNAIL{
+width: 1px;
+position: absolute;
+
+ }
 
 body{
     font-family:  'Open Sans', sans-serif;
     background-color: #ffffff41;
 }
 
-body #THUMBNAIL{
-width: 1px;
-position: absolute;
-
-}
 
 a{
     text-decoration: none;
