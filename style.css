@@ -40,17 +40,17 @@
 }
 
 /* COMMON CSS CORNER */ 
- #THUMBNAIL{
-width: 1px;
-position: absolute;
-
- }
 
 body{
     font-family:  'Open Sans', sans-serif;
     background-color: #ffffff41;
 }
 
+body #THUMBNAIL{
+width: 1px;
+position: absolute;
+
+}
 
 a{
     text-decoration: none;
@@ -459,6 +459,8 @@ nav .menu li a{
     margin: auto;
     width: 1293px;
     height: 477px;
+    display: flex;
+    flex-wrap: wrap;
     /* background-color: #2277df88; */
     
 }
@@ -468,38 +470,35 @@ nav .menu li a{
     border: 0px;
   outline: 0px;
   display: flex;
+  margin: auto;
   
-  align-items: center;
+ 
 
    
 
 }
 
 #IMG_gallery .IMG_CNT{
-    align-items: center;
+    
     border: 0px;
     outline: 0px;
-  
-    display: inline-block;
-
+  margin: auto;
+display: flex;
+flex-wrap: wrap;
 
 }
 #IMG_gallery .IMG_CNT .IMGcard{
-    align-items: center;
-    border: 0px;
-    outline: 0px;
-    padding: 0px ;
-    display: inline-block;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
  
 }
 #IMG_gallery img{
-   
-    border: 0px;
-    outline: 0px;
-      padding: 0%;
-      margin: 0%;
-      padding: 0px;
-      margin: 0px;
+    display: block;
+    width: 100%;
+
   }
 
   #IMG_gallery img:hover{
